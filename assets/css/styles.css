@@ -2,3 +2,30 @@ body {
     background-image: url('../images/1.jpg');
     background-size: cover;
 }
+p,h1 {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+main {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+main img {
+    width: 80px;
+    margin-top: 10%;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+}
+
+#headingDescription {
+    margin: 10px 0;
+}

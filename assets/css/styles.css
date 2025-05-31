@@ -69,3 +69,12 @@ button {
 textarea {
     resize: none;
 }
+
+table {
+    width: 100%;
+    border: none;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgba(181, 181, 252, 0.2);
+}

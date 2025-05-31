@@ -26,6 +26,30 @@ section {
     padding: 20px;
 }
 
+#LoginFormContainer {
+    text-align: left;
+}
+
 #headingDescription {
     margin: 10px 0;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.custom-input {
+    width: 80%;
+    border: 1px solid #9b9a9a;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+button {
+    background-color: #003877;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    border: none;
 }

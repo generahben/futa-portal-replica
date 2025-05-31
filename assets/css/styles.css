@@ -16,6 +16,10 @@ main {
     text-align: center;
 }
 
+main.biggerWidth {
+    width: 60%;
+}
+
 main img {
     width: 80px;
     margin-top: 10%;
@@ -52,4 +56,12 @@ button {
     color: white;
     padding: 5px 10px;
     border: none;
+}
+
+#formSection {
+    display: flex;
+}
+
+#formSection aside {
+    flex-grow: 1;
 }

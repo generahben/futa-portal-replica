@@ -22,7 +22,7 @@
                         <aside>
                             <div class="mb-10">
                                 <label for="">Name</label> <br>
-                                <input type="text" class="custom-input" name="studentName" placeholder="Name" required>
+                                <input type="text" maxlength="3" class="custom-input" name="studentName" placeholder="Name" required>
                             </div>
                             <div class="mb-10">
                                 <label for="">Email</label> <br>
@@ -53,8 +53,42 @@
                         <aside>
                             <div class="mb-10">
                                 <label for="">About You</label> <br>
-                                <textarea name="studentBio" class="custom-input" placeholder="About you"></textarea>
+                                <textarea name="studentBio" maxlength="20" rows="7" class="custom-input" placeholder="About you"></textarea>
                             </div>
+
+                            <div class="mb-10">
+                                <label for="">JAMB Score</label> <br>
+                                <input type="radio" name="studentJambScore" id="150-200" value="150-200">
+                                <label for="150-200">150 - 200</label>
+                                
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                
+                                <input type="radio" name="studentJambScore" id="201-250" value="201-250">
+                                <label for="201-250">201 - 250</label>
+                            </div>
+
+                            <div class="mb-10">
+                                <label for="">Personality</label> <br>
+                                <input type="checkbox" name="studentJambScore" id="Funny" value="Funny">
+                                <label for="Funny">Funny</label>
+                                
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                
+                                <input type="checkbox" name="studentPersonality" id="Anger" value="Anger">
+                                <label for="Anger">Anger</label>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                <input type="checkbox" name="studentPersonality" id="Smoker" value="Smoker">
+                                <label for="Smoker">Smoker</label>
+                            </div>
+
+                            <div class="mb-10">
+                                <label for="">Upload WAEC Result</label> <br>
+                                <input type="file" name="studentWaecResult" class="custom-input">
+                            </div>
+
+
                         </aside>
 
                     </section>
